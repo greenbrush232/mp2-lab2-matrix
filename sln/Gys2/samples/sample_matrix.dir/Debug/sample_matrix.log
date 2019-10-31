@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/osipov.n/Desktop/mp2-lab2-matrix/samples/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/osipov.n/Desktop/mp2-lab2-matrix/sln/Gys2/samples/CMakeFiles/generate.stamp is up-to-date.
+  sample_matrix.cpp
+  sample_matrix.vcxproj -> C:\Users\osipov.n\Desktop\mp2-lab2-matrix\sln\Gys2\bin\sample_matrix.exe
