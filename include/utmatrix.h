@@ -217,6 +217,7 @@ public:
 	TMatrix& operator= (const TMatrix& mt);        // присваивание
 	TMatrix  operator+ (const TMatrix& mt);        // сложение
 	TMatrix  operator- (const TMatrix& mt);        // вычитание
+	TMatrix  operator* (const TMatrix& mt);        // умножение
 
 	// ввод / вывод
 	friend istream& operator>>(istream& in, TMatrix& mt)
@@ -312,6 +313,30 @@ TMatrix<ValType> TMatrix<ValType>::operator-(const TMatrix<ValType>& mt)
 	for (int i = 0; i < Size; i++)
 		tmp.pVector[i] = pVector[i] - mt.pVector[i];
 	return tmp;
+}
+
+
+template<class ValType>
+TMatrix<ValType> TMatrix<ValType>::operator*(const TMatrix<ValType>& mt) // умножение 
+{
+	
+	if (Size != mt.Size)
+		throw "error";
+	
+    TMatrix<ValType> tmp(Size);
+
+	
+
+	for (int i = 0; i < Size; i++) {
+		for (int j = i; j < Size; j++) {
+			
+			for (int k = i; k <= j; k++) {
+				tmp.pVector[i][j] += pVector[i][k] * mt.pVector[k][j];
+			}
+		}
+	}
+	return tmp;
+
 }
 
 // TVector О3 Л2 П4 С6

@@ -1,0 +1,6 @@
+C:/Users/пк/Desktop/mp2-lab2-matrix/sln/fold/CMakeFiles/ALL_BUILD.dir
+C:/Users/пк/Desktop/mp2-lab2-matrix/sln/fold/CMakeFiles/ZERO_CHECK.dir
+C:/Users/пк/Desktop/mp2-lab2-matrix/sln/fold/include/CMakeFiles/matrix.dir
+C:/Users/пк/Desktop/mp2-lab2-matrix/sln/fold/samples/CMakeFiles/sample_matrix.dir
+C:/Users/пк/Desktop/mp2-lab2-matrix/sln/fold/gtest/CMakeFiles/gtest.dir
+C:/Users/пк/Desktop/mp2-lab2-matrix/sln/fold/test/CMakeFiles/test_matrix.dir

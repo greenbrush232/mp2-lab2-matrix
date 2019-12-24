@@ -1,6 +1,0 @@
-C:/Users/osipov.n/Desktop/mp2-lab2-matrix/sln/Gys2/CMakeFiles/ALL_BUILD.dir
-C:/Users/osipov.n/Desktop/mp2-lab2-matrix/sln/Gys2/CMakeFiles/ZERO_CHECK.dir
-C:/Users/osipov.n/Desktop/mp2-lab2-matrix/sln/Gys2/include/CMakeFiles/matrix.dir
-C:/Users/osipov.n/Desktop/mp2-lab2-matrix/sln/Gys2/samples/CMakeFiles/sample_matrix.dir
-C:/Users/osipov.n/Desktop/mp2-lab2-matrix/sln/Gys2/gtest/CMakeFiles/gtest.dir
-C:/Users/osipov.n/Desktop/mp2-lab2-matrix/sln/Gys2/test/CMakeFiles/test_matrix.dir

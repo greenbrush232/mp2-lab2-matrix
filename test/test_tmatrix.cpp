@@ -189,3 +189,40 @@ TEST(TMatrix, cant_subtract_matrixes_with_not_equal_size)
 	TMatrix<int> m2(3);
 	ASSERT_ANY_THROW(m1 - m2);
 }
+TEST(TMatrix, can_multiply_matrices_with_equal_size)
+{
+	TMatrix<int> m1(3);
+	TMatrix<int> m2(3);
+	TMatrix<int> m3(3);
+
+	m1[0][0] = 1;
+	m1[0][1] = 1;
+	m1[0][2] = 1;
+	m1[1][1] = 1;
+	m1[1][2] = 1;
+	m1[2][2] = 1;
+
+	m2[0][0] = 1;
+	m2[0][1] = 1;
+	m2[0][2] = 1;
+	m2[1][1] = 1;
+	m2[1][2] = 1;
+	m2[2][2] = 1;
+
+	m3[0][0] = 1;
+	m3[0][1] = 2;
+	m3[0][2] = 3;
+	m3[1][1] = 1;
+	m3[1][2] = 2;
+	m3[2][2] = 1;
+
+	EXPECT_EQ(m3, m1 * m2);
+}
+
+TEST(TMatrix, can_multiply_matrices_with_not_equal_size)
+{
+	TMatrix<int> m1(6);
+	TMatrix<int> m2(2);
+	
+	ASSERT_ANY_THROW(m1 * m2);
+}
